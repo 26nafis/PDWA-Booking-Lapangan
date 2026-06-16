@@ -1,0 +1,78 @@
+/* ============================================================
+   SportField Booking — Custom CSS
+   ============================================================ */
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Aspect ratio fallback */
+.aspect-video {
+    aspect-ratio: 16 / 9;
+}
+
+/* Flash message animation */
+[role="alert"] {
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(-8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Star rating hover */
+.star-icon {
+    transition: transform 0.1s, color 0.1s;
+}
+.star-icon:hover {
+    transform: scale(1.15);
+}
+
+/* Table responsive */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Sticky sidebar scrollbar thin */
+aside::-webkit-scrollbar { width: 4px; }
+aside::-webkit-scrollbar-track { background: transparent; }
+aside::-webkit-scrollbar-thumb { background: #374151; border-radius: 2px; }
+
+/* Drag drop zone highlight */
+#drop-zone.dragging {
+    border-color: #16a34a;
+    background-color: #f0fdf4;
+}
+
+/* Focus ring global */
+*:focus-visible {
+    outline: 2px solid #16a34a;
+    outline-offset: 2px;
+}
+
+/* Card hover transition */
+.card-hover {
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+.card-hover:hover {
+    box-shadow: 0 8px 25px -5px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+/* Badge pill */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.6rem;
+    border-radius: 9999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+/* Print: hide nav */
+@media print {
+    nav, footer, .no-print { display: none !important; }
+}
