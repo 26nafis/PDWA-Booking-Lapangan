@@ -165,3 +165,18 @@ Format URL: `BASE_URL/{controller}/{method}/{param}`
 
 **Koneksi database error?**
 → Cek `host`, `dbName`, `user`, `pass` di `app/config/database.php`.
+
+
+
+
+
+
+## Ketentuan Pengumpulan
+
+Nama anggota kelompok( nafis spalanzani, hafid nasrullah, luthfi alqorni, rakha miftahu zahran, ridwan hasri, derek zakir, rizki zulfauzi, frans dito
+
+Link deployment aplikasi ( https://bookinglapangan.pdwtiumy.click/booking-lapangan/ )
+
+Deskripsi singkat aplikas ()
+
+Screenshot seluruh tampilan antarmuka (UI) yang telah dibuat beserta keterangan singkat setiap halaman ()
