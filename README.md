@@ -173,7 +173,7 @@ Format URL: `BASE_URL/{controller}/{method}/{param}`
 
 ## Ketentuan Pengumpulan
 
-Nama anggota kelompok( nafis spalanzani, hafid nasrullah, luthfi alqorni, rakha miftahu zahran, ridwan hasri, derek zakir, rizki zulfauzi, frans dito
+Nama anggota kelompok( nafis spalanzani, hafid nasrullah, luthfi alqorni, rakha miftahu zahran, ridwan hasri, derek dzakir cadudasa, rizki zulfauzi, frans dito
 
 Link deployment aplikasi ( https://bookinglapangan.pdwtiumy.click/booking-lapangan/ )
 
